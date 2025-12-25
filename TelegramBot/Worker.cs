@@ -104,7 +104,7 @@ namespace TelegramBot
             else if (typeMessage == 3)
                 await TelegramBotClient.SendMessage(
                     chatId,
-                    "Указанное вами время и дата не могут быть установлены, "
+                    "Указанное вами время и дата не могут быть установлены, " 
                     + $"потому-что сейчас уже:{DateTime.Now.ToString("HH.mm dd.MM.yyyy")}");
         }
         ///<summary>
